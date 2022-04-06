@@ -1,4 +1,4 @@
-@media only screen and (min-width: 770px) and (max-width: 1280px) {
+@media only screen and (min-width: 887px) and (max-width: 1280px) {
   .myVideo {
     position: relative;
     top: -100px;
@@ -12,7 +12,7 @@
   }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 769px) {
+@media only screen and (min-width: 594px) and (max-width: 887px) {
   .container-heading {
     .myVideo {
       position: relative;
@@ -23,13 +23,15 @@
 
       h2,
       h1 {
-        font-size: 70px;
+        font-size: 90px;
       }
     }
     .heading {
-      bottom: 15%;
-      left: -20%;
-      width: 100vw;
+      width: 500px;
+      h3,
+      p {
+        font-size: 20px;
+      }
     }
   }
 
@@ -63,18 +65,31 @@
     }
   }
 }
-@media screen and (max-width: 480px) {
-  .myVideo {
-    position: relative;
-    top: -100px;
-  }
+@media screen and (min-width: 400px) and (max-width: 594px) {
+  .container-heading {
+    min-width: 400px;
+    .myVideo {
+      position: relative;
+      top: -110px;
+    }
 
-  .text-box {
-    h2,
-    h1 {
-      font-size: 50px !important;
+    .text-box {
+      h2,
+      h1 {
+        font-size: 60px !important;
+      }
+    }
+
+    .heading {
+      max-width: 400px;
+      left: -90px;
+      h3,
+      p {
+        font-size: 18px;
+      }
     }
   }
+
   footer {
     flex-direction: column;
 
