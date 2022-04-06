@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Work+Sans:wght@100;300&display=swap");
+
+$primary-font: "Montserrat Alternates", sans-serif;
+$secondary-font: "Work Sans", sans-serif;
+$primary-color: #247881;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//MIXINS
+
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
