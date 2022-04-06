@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: $secondary-font;
+  }
+  
+  .subscription {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 50px;
+    margin-top: 20px;
+  
+    p:last-child {
+      font-size: 12px;
+      padding-top: 15px;
+    }
+    .input-group {
+      max-width: 80%;
+    }
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    width: 50%;
+  }
+  
